@@ -1,0 +1,154 @@
+@import url("https://fonts.cdnfonts.com/css/metropolis-2");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Metropolis", sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(189, 93, 56);
+  width: 20%;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.img {
+  width: 170px;
+  border: 8px;
+  border-style: solid;
+  border-color: rgb(202, 125, 96);
+  border-radius: 50%;
+}
+ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+a:hover {
+  color: rgb(255, 251, 251);
+  transition: all 0.8s;
+}
+li a {
+  color: rgb(190, 189, 189);
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+section {
+  padding: 3rem;
+}
+.header {
+  width: 80%;
+  margin-left: 20%;
+}
+.header h1 {
+  margin-top: 4rem;
+  text-transform: uppercase;
+  font-size: 70px;
+  color: rgb(74, 74, 74);
+  font-weight: 900;
+}
+.header h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(102, 101, 101);
+}
+span {
+  color: rgb(189, 93, 56);
+}
+.spn-hover:hover {
+  color: rgb(124, 37, 5);
+}
+p {
+  font-size: 1.2rem;
+  margin-top: 4rem;
+  color: rgb(127, 127, 127);
+  font-weight: 400;
+  line-height: 30px;
+}
+.icon a i {
+  color: rgb(61, 61, 61);
+  font-size: 3rem;
+  margin-top: 0.5rem;
+  margin-top: 3rem;
+}
+a i:hover {
+  color: rgb(189, 93, 56);
+  transition: all 0.3s;
+}
+h2 {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: rgb(61, 61, 61);
+}
+h3 {
+  margin-bottom: 0.5rem;
+  color: rgb(61, 61, 61);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.date {
+  display: flex;
+  justify-content: end;
+}
+.alt-title {
+  color: rgb(108, 117, 125);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+p {
+  margin-top: 40px;
+}
+.div-margin {
+  margin-bottom: 4rem;
+}
+.program-icon i {
+  font-size: 4rem;
+  color: rgb(108, 117, 125);
+}
+.program-icon i:hover {
+  color: rgb(189, 93, 56);
+  cursor: pointer;
+}
+.program-icon ul {
+  display: flex;
+  justify-content: space-between;
+}
+.workflow ul li {
+  position: relative;
+  display: list-item;
+  list-style-type: none;
+  color: rgb(127, 127, 127);
+}
+.workflow i {
+  line-height: 2rem;
+}
+.workflow {
+  padding: 2rem;
+}
+.prize ul li {
+  position: relative;
+  display: list-item;
+  list-style-type: none;
+  color: rgb(127, 127, 127);
+}
+.prize ul li i {
+  color: rgb(255, 179, 0);
+  line-height: 2rem;
+}
+.prize {
+  padding: 2rem;
+}
