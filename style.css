@@ -1,4 +1,25 @@
 @import url("https://fonts.cdnfonts.com/css/metropolis-2");
+@media screen and (max-width: 997px) {
+  body {
+    background-color: black;
+  }
+  .program-icon li i {
+    color: rgb(189, 93, 56);
+  }
+  .program-icon li i:hover {
+    color: rgb(190, 189, 189);
+  }
+}
+@media screen and (max-width: 1230px) {
+  .program-icon li i {
+    font-size: 50px;
+  }
+}
+@media (max-width: 870px) {
+  .navbar img {
+    width: 100px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
